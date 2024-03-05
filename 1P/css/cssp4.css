@@ -1,0 +1,38 @@
+.wallpaper {
+    background-color: rgb(7, 15, 13);
+    height: 100vh;
+    width: 100%;
+    position:fixed;
+    top:0;
+    left:0;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    height: 35px;
+    font-size: 35px;
+    padding-left: 10px;
+}
+
+.areabonita{
+    padding-left: 69%;
+    height: 30px;
+    width: 410px;
+    font-size: 21px;
+}
+
+.datos{
+    color: rgb(255, 255, 255);
+    background-color: rgb(53, 77, 77);
+    font-size: 21px;
+    top: 0;
+}
+
+.datos .si{
+    color: rgb(134, 134, 134);
+    height: 35px;
+}
+
+.comentarios{
+    color: rgb(255, 255, 255);
+}
