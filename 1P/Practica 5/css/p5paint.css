@@ -1,0 +1,81 @@
+.contenedor{
+    background-color: rgb(16, 32, 24);
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    justify-content:space-around;
+}
+
+.targeta{
+    width: 480px;
+    height: 500px;
+    margin-top: 75px;
+    position: center;
+}
+.targeta .cabecera{
+    display: flex;
+    padding: 10px;
+    color: azure;
+    border-radius: 15% 15% 0% 0%;
+}
+
+.targeta .cabecera span{
+    flex: 1;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 20px;
+}
+
+.targeta .cabecera img{
+    width: 110px;
+    height: 110px;
+}
+
+.targeta .cuerpo{
+    text-align: justify;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.targeta .pie{
+    border-radius: 0% 0% 15% 15%;
+    height: 80px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.targeta .pie button{
+    width: 70%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    background-color: rgb(161,183,121);
+    color: black;
+    margin-top: 17px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.color1{
+    background-color: rgb(95, 165, 30);
+}
+
+.color2{
+    background-color: rgb(9,124,107);
+}
+
+.color3{
+    background-color: rgb(212,217,132);
+}
+
+.color4{
+    background-color: rgb(103,154,107);
+}
+
+.alinear{
+    display: flex;
+}
