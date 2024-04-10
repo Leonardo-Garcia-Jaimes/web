@@ -1,0 +1,21 @@
+.fondo{
+    background-color: rgb(18, 22, 24);
+    height: 100vh;
+    width: 100vw;
+    color: rgb(255, 255, 255);
+}
+
+.carousel-indicators button{
+    margin-top: 10px;
+}
+
+img{
+    height: 455px;
+    width: 221px;
+    margin: 50px;
+    padding-right: 100px;
+}
+
+.carousel-item{
+    transition: transform 1.5s ease, opacity .5s ease-out
+}
