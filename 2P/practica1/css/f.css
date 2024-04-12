@@ -1,4 +1,4 @@
-.pagina{
+.pagina {
     height: 100vh;
     width: 100%;
     position: fixed;
@@ -6,7 +6,7 @@
     left: 0px;
 }
 
-.cabecera{
+.cabecera {
     background-color: rgb(58, 80, 87);
     color: rgb(255, 255, 255);
     overflow: hidden;
@@ -17,7 +17,7 @@
     z-index: 2;
 }
 
-h1{
+h1 {
     margin: 0px;
     padding: 0px;
     font-size: 20px;
@@ -25,44 +25,38 @@ h1{
     margin-left: 10px;
 }
 
-.contenido img{
-    z-index: 1;
+.contenido img {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.contenido {
+    display: flex;
+    flex-wrap: wrap;
+    color: rgb(255, 255, 255);
+    margin-top: 70px;
+    height: 450px;
+    width: 1300px;
+    margin-left: 35px;
+    border-radius: 5px 5px 5px 5px;
 }
 
-.contenido .izquierda{
-    float: top;
-    background-color: peru;
-    margin-top: 20px;
-    margin-left: 20px;
-    height: 570px;
-    width: 300px;
+.contenido .izquierda,
+.contenido .centro,
+.contenido .derecha {
+    flex-grow: 2;
+    flex-basis: calc(33.33% - 80px);
+    height: 500px;
+    margin: 25px 40px;
+    position: relative;
     z-index: 3;
 }
 
-.contenido .centro{
-    float: none;
-    background-color: peru;
-    height: 570px;
-    width: 300px;
-    z-index: 4;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin-top: 25px;
-    margin-left: 20px;
+.display-6{
+    font-size: initial;
 }
 
-.contenido .derecha{
-    float: right;
-    background-color: peru;
-    height: 570px;
-    width: 300px;
-    z-index: 5;
-    position: absolute;
-    top: 50%;
-    right: 20px;
-    transform: translate(0, -50%);
-    margin-top: 25px;
-    margin-left: 100px;
+.fondoContenido {
+    background-color: rgba(58, 80, 87, 0.75);
 }
