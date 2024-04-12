@@ -39,22 +39,30 @@ h1{
     z-index: 3;
 }
 
-.izquierda .centro{
-    float: top;
+.contenido .centro{
+    float: none;
     background-color: peru;
-    padding-top: 20px;
-    padding-left: 20px;
     height: 570px;
     width: 300px;
     z-index: 4;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 25px;
+    margin-left: 20px;
 }
 
-.centro .derecha{
-    float: top;
+.contenido .derecha{
+    float: right;
     background-color: peru;
-    margin-top: 20px;
-    margin-left: 20px;
     height: 570px;
     width: 300px;
     z-index: 5;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translate(0, -50%);
+    margin-top: 25px;
+    margin-left: 100px;
 }
