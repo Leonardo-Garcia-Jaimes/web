@@ -1,5 +1,5 @@
 .pagina {
-    background-color: rgb(148, 148, 167);
+    background-color: rgb(224, 224, 238);
     height: 100vh;
     width: 100%;
     position: fixed;
@@ -9,7 +9,7 @@
 }
 
 .barraizquierda {
-    background-color: rgb(58, 80, 87);
+    background-color: rgb(88, 120, 129);
     color: rgb(255, 255, 255);
     overflow: hidden;
     display: flex;
@@ -22,7 +22,7 @@
 
 .barraizquierda button{
     background-color: rgb(41, 187, 231);
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     border: none;
     width: 50px;
     height: 50px;
@@ -33,13 +33,13 @@
 .barraizquierda svg{
     width: 30px;
     height: 30px;
-    padding-right: 0px;
+    padding-right: 10px;
     margin: auto;
 }
 
 .lodemas{
-    background-color: rgb(78, 58, 87);
-    color: rgb(255, 255, 255);
+    background-color: rgb(182, 182, 182);
+    color: black;
     overflow: hidden;
     display: flex;
     height: 100%;
@@ -51,33 +51,36 @@
 }
 
 .lodemas .arriba{
-    background-color: gray;
+    background-color: rgb(182, 182, 182);
     position: top;
     display: flex;
-    height: 100px;
+    height: 110px;
     width: 500px;
+    margin: 10px;
 }
 
-.lodemas .arriba{
-    background-color: gray;
-    position: top;
-    display: flex;
-    height: 100px;
-    width: 500px;
+.arribacontenido button{
+    margin-left: 100%;
+    margin-top: 5px;
 }
-
-
 
 .lodemas .abajo{
-    background-color: thistle;
+    background-color: rgb(213, 209, 224);
+    color:black;
     position: fixed;
     display: flex;
-    height: 600px;
+    height: 590px;
     width: 500px;
 }
 
 .abajo select{
     width: 100px;
     height: 30px;
+    margin: 10px;
+}
+
+.abajocontenido{
+    width: 400px;
+    height: 500px;
     margin: 10px;
 }
