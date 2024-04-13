@@ -1,4 +1,5 @@
 .pagina {
+    background-color: rgb(148, 148, 167);
     height: 100vh;
     width: 100%;
     position: fixed;
@@ -16,17 +17,44 @@
     width: 50px;
     position: relative;
     z-index: 1;
+    float: left; /* Añade esta línea */
 }
 
-.barraizquierda .buttonseishon {
-    background-color: rgb(38, 155, 190);
+.barraizquierda button{
+    background-color: rgb(41, 187, 231);
     color: rgb(255, 255, 255);
     border: none;
-    cursor: pointer;
     width: 50px;
     height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.lodemas{
+    background-color: rgb(78, 58, 87);
+    color: rgb(255, 255, 255);
+    overflow: hidden;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    
+    height: 100%;
+    width: 500px;
+    position: relative;
+    z-index: 2;
+    display: block;
+    float: left;
+}
+
+.lodemas .arriba{
+    background-color: gray;
+    position: top;
+    display: flex;
+    height: 200px;
+    width: 500px;
+}
+
+.lodemas .abajo{
+    background-color: thistle;
+    position: fixed;
+    display: flex;
+    height: 500px;
+    width: 500px;
 }
