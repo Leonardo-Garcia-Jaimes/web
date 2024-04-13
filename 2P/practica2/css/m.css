@@ -17,7 +17,7 @@
     width: 50px;
     position: relative;
     z-index: 1;
-    float: left; /* Añade esta línea */
+    float: left;
 }
 
 .barraizquierda button{
@@ -28,6 +28,13 @@
     height: 50px;
     font-size: 20px;
     cursor: pointer;
+}
+
+.barraizquierda svg{
+    width: 30px;
+    height: 30px;
+    padding-right: 0px;
+    margin: auto;
 }
 
 .lodemas{
@@ -47,14 +54,30 @@
     background-color: gray;
     position: top;
     display: flex;
-    height: 200px;
+    height: 100px;
     width: 500px;
 }
+
+.lodemas .arriba{
+    background-color: gray;
+    position: top;
+    display: flex;
+    height: 100px;
+    width: 500px;
+}
+
+
 
 .lodemas .abajo{
     background-color: thistle;
     position: fixed;
     display: flex;
-    height: 500px;
+    height: 600px;
     width: 500px;
+}
+
+.abajo select{
+    width: 100px;
+    height: 30px;
+    margin: 10px;
 }
