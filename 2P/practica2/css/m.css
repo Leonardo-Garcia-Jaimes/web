@@ -1,0 +1,32 @@
+.pagina {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+}
+
+.barraizquierda {
+    background-color: rgb(58, 80, 87);
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+    display: flex;
+    height: 100%;
+    width: 50px;
+    position: relative;
+    z-index: 1;
+}
+
+.barraizquierda .buttonseishon {
+    background-color: rgb(38, 155, 190);
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
