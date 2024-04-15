@@ -1,9 +1,9 @@
 .pagina {
     height: 100vh;
-    width: 100%;
+    width: calc(100% - 50px);
     position: fixed;
     top: 0px;
-    left: 0px;
+    left: 50px;
     z-index: -1;
 }
 
@@ -11,6 +11,10 @@
     background-color: black;
     height: 100vh;
     width: 50px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
 }
 
 .izquierda .botones {
@@ -35,5 +39,23 @@
 }
 
 .lado{
-    
+    background-color: rgb(136, 136, 136);
+    height: 100vh;
+    width: 500px;
+    margin-left: 0;
+}
+
+.quita{
+    background-color: rgb(236, 236, 236);
+    height: 30px;
+    width: 500px;
+    margin-left: 0px;
+}
+
+.contenido{
+    background-color: rgb(236, 236, 236);
+    height: 100vh;
+    width: 500px;
+    margin-left: 0px;
+    margin-top: 0px;
 }
