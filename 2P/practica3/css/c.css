@@ -46,13 +46,21 @@
 }
 
 .quita{
-    background-color: rgb(236, 236, 236);
+    background-color: rgb(206, 206, 206);
     height: 30px;
     width: 500px;
     margin-left: 0px;
 }
 
 .quita button{
+    height: 30px;
+    width: 30px;
+    float: right;
+}
+
+.quita button:hover{
+    color: white;
+    background-color: red;
     height: 30px;
     width: 30px;
     float: right;
@@ -65,4 +73,9 @@
     margin-left: auto;
     margin-top: 0px;
     float: right;
+}
+
+.contenido input{
+    border-color: rgb(199, 199, 199);
+    animation: none;
 }
