@@ -10,3 +10,18 @@
     color: blanchedalmond;
     padding: 10px;
 }
+
+.carousel-indicators button{
+    margin-top: 10px;
+}
+
+img{
+    height: 455px;
+    width: 221px;
+    margin: 50px;
+    padding-right: 100px;
+}
+
+.carousel-item{
+    transition: transform 1.5s ease, opacity .5s ease-out
+}
