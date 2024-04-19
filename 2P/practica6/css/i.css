@@ -1,0 +1,38 @@
+.pagina{
+    background-color: rgb(58, 80, 87);
+    height: 100vh;
+    width: 100%;
+}
+.alineacion{
+    margin: 0 auto;
+}
+.alineacion .textos{
+    background-color: antiquewhite;
+    height: 150px;
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-150%, -50%);
+}
+
+.alineacion .inicio{
+    background-color: blueviolet;
+    height: 350px;
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(0%, -50%);
+}
+.alineacion .inicio textarea{
+    height: 50px;
+    width: 300px;
+    margin-left: 50px;
+}
+
+.alineacion .inicio button{
+    height: 50px;
+    width: 300px;
+    margin-left: 50px;
+}
