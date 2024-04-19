@@ -1,0 +1,31 @@
+.pagina{
+    background-color: rgb(173, 165, 165);
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+}
+.cabecera{
+    background-color: aqua;
+    width: 100%;
+}
+.contenido{
+    background-color: blueviolet;
+    height: 380px;
+    width: 460px;
+}
+.contenido .uno{
+    background-color: blue;
+    height: 190px;
+    width: 220px;
+}
+.contenido .dos{
+    background-color: red;
+    height: 190px;
+    width: 220px;
+}
+.contenido .tres{
+    background-color: green;
+    height: 190px;
+    width: 440px;
+}
