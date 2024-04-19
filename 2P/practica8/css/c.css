@@ -1,0 +1,12 @@
+.paginaseishon{
+    background-color: rgb(255, 205, 205);
+    color: rgb(0, 0, 0);
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+}
+.arriba{
+    background-color: brown;
+    color: blanchedalmond;
+    padding: 10px;
+}
