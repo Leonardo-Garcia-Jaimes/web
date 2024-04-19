@@ -1,5 +1,5 @@
 .elcontenidosss{
-    background-color: rgb(105, 67, 19);
+    background-color: rgb(219, 201, 179);
     height: 100vh;
     width: calc(100%);
     position: fixed;
@@ -9,16 +9,22 @@
 }
 .contadorrecibo{
     margin: auto;
-    background-color: rgb(100, 63, 63);
+    background-color: rgb(228, 203, 121);
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 455px;
+    height: 470px;
     width: 970px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px 15px 15px 15px;
 }
 .contadorrecibo .arriba{
     margin-top: 10px;
-    background-color: aqua;
+    background-color: rgb(85, 59, 20);
+    color: white;
     position: absolute;
     top: 0;
     border: 1px;
@@ -31,16 +37,49 @@
 }
 
 .contadorrecibo .contenidoseishon{
-    background-color: rgb(228, 212, 193);
-    margin-top: 69px;
-    align-self: center;
+    margin-top: 60px;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 45px;
 }
 
 .contenidoseishon input{
     width: 140px;
 }
 
-.paredes{
-    margin-top: 10px;
-    padding: 10px;
+.uno{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dos{
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+
+.tres{
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+
+.cuatro{
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+
+.sinco{
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+
+.seis{
+    display: flex;
+    align-items: center;
 }
