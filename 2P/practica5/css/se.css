@@ -13,19 +13,26 @@
     background-color: blueviolet;
     height: 380px;
     width: 460px;
+    margin: 0 auto;
+    position: absolute;
+    top: 150px;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 .contenido .uno{
-    background-color: blue;
     height: 190px;
     width: 220px;
 }
 .contenido .dos{
-    background-color: red;
     height: 190px;
     width: 220px;
+    position: absolute;
+    top: 40px;
+    left: 220px;
 }
 .contenido .tres{
-    background-color: green;
-    height: 190px;
-    width: 440px;
+    height: 100px;
+    width: 400px;
+    padding-left: 20px;
 }
