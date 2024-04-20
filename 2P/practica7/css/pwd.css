@@ -1,16 +1,43 @@
 .pagina {
-    background-color: black;
     color: white;
     height: 100vh;
     width: 100%;
     position: fixed;
+    z-index: -2;
+    pointer-events: none;
+}
+.pagina img{
+    top: 40px;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    display: block;
 }
 .cabecera {
-    background-color: blue;
-    color: black;
+    color: white;
     padding: 10px;
+}
+.cabecera label{
+    position: absolute;
+    top: 5px;
+    left: 0;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.cabecera img{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    display: block;
 }
 .contenido {
     transform: translate(35%, 0%);
+}
 
+.contenido img{
+    height: 200px;
+    width: 200px;
 }
