@@ -1,18 +1,37 @@
 .paginaseishon{
-    background-color: rgb(255, 205, 205);
+    background-color: rgb(30, 12, 80);
     color: rgb(0, 0, 0);
     height: 100vh;
     width: 100%;
     position: fixed;
 }
-.arriba{
-    background-color: aqua;
-    color: rgb(150, 123, 83);
-    padding: 10px;
+
+.container-fluid{
+    background-color: rgb(0, 2, 24);
 }
 
-.carousel-indicators button{
-    margin-top: 10px;
+.dropdown-menu{
+    background-color: rgb(6, 10, 53);
+}
+
+.bg-primary {
+    --bs-bg-opacity: 1;
+    background-color: rgb(0, 2, 24) !important;
+}
+.container-fluid a{
+    color: white;
+}
+
+.d-flex button{
+    background-color: royalblue;
+    color: white;
+    border: none;
+}
+
+.d-flex button:hover{
+    background-color: rgb(94, 131, 240);
+    color: white;
+    border: none;
 }
 
 img{
