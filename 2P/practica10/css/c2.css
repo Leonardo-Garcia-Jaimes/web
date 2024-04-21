@@ -35,12 +35,8 @@
 }
 
 img{
-    height: 455px;
-    width: 221px;
-    margin: 50px;
-    padding-right: 100px;
-}
-
-.carousel-item{
-    transition: transform 1.5s ease, opacity .5s ease-out
+    width: 50%;
+    height: 550px;
+    margin: 25px;
+    padding-right: 50px;
 }
