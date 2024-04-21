@@ -1,25 +1,36 @@
 .pagina{
-    background-color: rgb(58, 80, 87);
+    background-color: rgb(61, 58, 87);
     height: 100vh;
     width: 100%;
 }
 
 .cabecera{
-    background-color: seagreen;
+    color: white;
+    background-color: rgb(65, 65, 128);
     height: 50px;
 }
 .alineacion{
     margin: 0 auto;
-    background-color: blue;
+    background-color: rgb(65, 65, 128);
     height: 450px;
     width: 990px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    border-radius: 50px 50px 50px 50px;
 }
+.alineacion label{
+    color: white;
+    margin-left: 50px;
+}
+.alineacion .inicio input{
+    height: 40px;
+    width: 300px;
+    margin-left: 50px;
+}
+
 .alineacion .imagen{
-    background-color: antiquewhite;
     height: 150px;
     width: 300px;
     position: absolute;
@@ -28,14 +39,22 @@
     transform: translate(50%, -50%);
 }
 
+.imagen svg{
+    color: white;
+    height: 150px;
+    width: 150px;
+    margin-left: 75px;
+}
+
 .alineacion .inicio{
-    background-color: blueviolet;
+    background-color: rgb(43, 137, 226);
     height: 350px;
     width: 400px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-110%, -50%);
+    border-radius: 50px 50px 50px 50px;
 }
 .alineacion .inicio textarea{
     height: 50px;
@@ -43,8 +62,8 @@
     margin-left: 50px;
 }
 
-.alineacion .inicio button{
+.alineacion .boton button{
     height: 50px;
-    width: 300px;
-    margin-left: 50px;
+    width: 140px;
+    margin-left: 40px;
 }
