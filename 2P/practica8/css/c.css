@@ -1,5 +1,5 @@
 .paginaseishon{
-    background-color: rgb(219, 216, 219);
+    background-color: rgb(176, 176, 180);
     color: rgb(0, 0, 0);
     height: 100vh;
     width: 100%;
@@ -11,9 +11,14 @@
 }
 
 img{
-    height: 455px;
-    width: 221px;
-    margin: 50px;
+    max-height: 900px;
+    max-width: 900px;
+    width: auto;
+    height: auto;
+    margin-left: 300px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     padding-right: 100px;
 }
 
