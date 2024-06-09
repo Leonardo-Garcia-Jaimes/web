@@ -1,0 +1,32 @@
+body{
+    color: 0;
+}
+
+.navbar{
+    background-color: rgb(15, 15, 15);
+    color: rgb(240, 240, 240);
+}
+
+.navbar button{
+    border-color: rgb(240, 240, 240);
+    border-width: 2px;
+    color: rgb(240, 240, 240);
+}
+
+.navbar button:hover{
+    background-color: rgb(240, 240, 240);
+    border-color: rgb(240, 240, 240);
+}
+
+.abajo{
+    background-color: blue;
+}
+
+.abajo .uno{
+    background-color: brown;
+}
+
+.dos{
+    background-color: green;
+    height: 100%;
+}
