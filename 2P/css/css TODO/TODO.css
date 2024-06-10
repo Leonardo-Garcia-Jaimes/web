@@ -1,32 +1,81 @@
 body{
-    color: 0;
+background-color: rgb(5, 5, 15);
 }
 
 .navbar{
-    background-color: rgb(15, 15, 15);
-    color: rgb(240, 240, 240);
+    background-color: rgb(133, 110, 104);
+    color: rgb(255, 249, 220);
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 5px 5px;
+}
+
+.navbar h5{
+    margin-top: 5px;
+}
+
+.navbar input{
+    margin-left: 450px;
+    border: none;
+    border-radius: 5px;
+    color: rgb(133, 110, 104);
+}
+
+.navbar input::placeholder {
+    color: rgb(133, 110, 104);
+}
+
+.navbar input:focus {
+    outline: none;
 }
 
 .navbar button{
-    border-color: rgb(240, 240, 240);
+    border-color: rgb(255, 249, 220);
     border-width: 2px;
-    color: rgb(240, 240, 240);
+    color: rgb(255, 249, 220);
 }
 
-.navbar button:hover{
-    background-color: rgb(240, 240, 240);
-    border-color: rgb(240, 240, 240);
+.navbar svg{
+margin-top: -5px;
 }
 
-.abajo{
-    background-color: blue;
+.offcanvas-header{
+    background-color: rgb(133, 110, 104);
+    color: rgb(255, 249, 220);
 }
 
-.abajo .uno{
-    background-color: brown;
+.offcanvas-body{
+    background-color: rgb(120, 158, 181);
+}
+
+.offcanvas-body hr{
+    color: rgb(170, 210, 230);
+    border-width: 2px;
+}
+
+.offcanvas-body a{
+    color: rgb(200, 219, 220);
+    text-decoration: none;
+}
+
+.navbar svg:hover,
+.navbar button:hover {
+    color: rgb(55, 55, 55);
+    background-color: rgb(255, 249, 220);
+    border-color: rgb(255, 249, 220);
+    transition: 0.5s;
+}
+
+.uno{
+    background-color: rgb(48, 59, 77);
+    color: rgb(200, 200, 250);
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 2.5px;
 }
 
 .dos{
-    background-color: green;
+    background-image: linear-gradient(to top, #54525f 80%, transparent 100%);
+    color: rgb(200, 200, 200);
     height: 100%;
+    margin-bottom: -15px;
 }
