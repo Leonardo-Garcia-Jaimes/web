@@ -14,10 +14,11 @@ background-color: rgb(5, 5, 15);
 }
 
 .navbar input{
-    margin-left: 450px;
+    margin-left: 750px;
     border: none;
     border-radius: 5px;
     color: rgb(133, 110, 104);
+    width: 310px;
 }
 
 .navbar input::placeholder {
@@ -32,6 +33,7 @@ background-color: rgb(5, 5, 15);
     border-color: rgb(255, 249, 220);
     border-width: 2px;
     color: rgb(255, 249, 220);
+    margin-right: 10px;
 }
 
 .navbar svg{
@@ -45,6 +47,29 @@ margin-top: -5px;
 
 .offcanvas-body{
     background-color: rgb(120, 158, 181);
+}
+
+.txtLinea1, .txtLinea2, .txtLinea3, .txtLinea4,
+.txtLinea5, .txtLinea6, .txtLinea7, .txtLinea8,
+.txtLinea9, .txtLinea10, .txtLinea11{
+    background-color: rgb(100, 130, 150);
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 50px;
+}
+
+.txtLinea1:hover, .txtLinea2:hover, .txtLinea3:hover, .txtLinea4:hover,
+.txtLinea5:hover, .txtLinea6:hover, .txtLinea7:hover, .txtLinea8:hover,
+.txtLinea9:hover, .txtLinea10:hover, .txtLinea11:hover{
+    background-color: rgb(139, 182, 209);
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
+}
+
+::marker{
+    color: rgb(255, 255, 255);
 }
 
 .offcanvas-body hr{
@@ -78,4 +103,41 @@ margin-top: -5px;
     color: rgb(200, 200, 200);
     height: 100%;
     margin-bottom: -15px;
+}
+
+.dos p{
+    margin-left: 10px;
+    font-size: 10px;
+}
+
+.dos a{
+    margin-left: 10px;
+    font-size: 10px;
+}
+
+.dos img{
+    width: 50px;
+    height: 20px;
+    border-radius: 50px;
+    margin-left: 9px;
+    margin-top: -35px;
+}
+
+.dos h6{
+    margin-left: 10px;
+    font-size: 10px;
+    margin-top: -20px;
+}
+
+img {
+    max-height: 900px;
+    max-width: 900px;
+    width: auto;
+    height: auto;
+    margin-left: 300px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-right: 100px;
+    border-radius: 20px !important;
 }
