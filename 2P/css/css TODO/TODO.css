@@ -90,6 +90,13 @@ margin-top: -5px;
     transition: 0.5s;
 }
 
+.carousel{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
 .uno{
     background-color: rgb(48, 59, 77);
     color: rgb(200, 200, 250);
@@ -98,11 +105,40 @@ margin-top: -5px;
     border-radius: 2.5px;
 }
 
+.uno h5{
+    margin-left: 20px;
+}
+
+.uno p{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.uno .carousel{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.carousel button{
+    background-color: rgba(5, 5, 15, 0.5);
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-top: 250px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.carousel img{
+    border-radius: 25px;
+}
+
 .dos{
     background-image: linear-gradient(to top, #54525f 80%, transparent 100%);
     color: rgb(200, 200, 200);
     height: 100%;
     margin-bottom: -15px;
+    top: -30px;
 }
 
 .dos p{
@@ -127,17 +163,4 @@ margin-top: -5px;
     margin-left: 10px;
     font-size: 10px;
     margin-top: -20px;
-}
-
-img {
-    max-height: 900px;
-    max-width: 900px;
-    width: auto;
-    height: auto;
-    margin-left: 300px;
-    margin-right: 50px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    padding-right: 100px;
-    border-radius: 20px !important;
 }
